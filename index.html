@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Text Flask</title>
+
+</head>
+
+<body>
+
+
+
+
+<h1>Posts:</h1>
+
+<ul>
+
+    {% for post in posts %}
+
+    <li><b>Title:</b> <i>{{ post[1] }}.</i> <b>Description:</b> <i>{{ post[2] }}.</i> <b>Date:</b> <i>{{ post[3] }}.</i></li>
+
+
+
+
+    {% endfor %}
+
+</ul>
+
+
+
+
+</body>
+
+</html>
